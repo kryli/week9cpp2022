@@ -4,8 +4,17 @@
 #include <vector>
 
 
-class FootballTeam{
-    
+class FootballTeam
+{
+public:
+    FootballTeam(std::string name, std::string city, std::string stadium, double level)
+        :_name(name)
+    {
+
+    }
+private:
+    std::string _name;
+
 };
 
 
@@ -42,6 +51,9 @@ void loadTeams(std::istream& in, std::vector<FootballTeam>& teams)
         std::cout << "city = " << city << "\n";
         std::cout << "stadium = " << stadium << "\n";
         std::cout << "level = " << level << "\n\n";
+
+
+
     }
 }
 
