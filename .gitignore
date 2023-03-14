@@ -76,3 +76,4 @@ CMakeLists.txt.user
 code/build*
 
 build/*
+code/src/problem1_cities/main
